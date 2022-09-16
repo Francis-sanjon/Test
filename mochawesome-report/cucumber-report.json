@@ -1,0 +1,34 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;login-orangehrm",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login OrangeHRM",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User login OrangeHRM page",
+            "result": {
+              "duration": 2514000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login",
+    "uri": "cypress\\e2e\\Login.feature"
+  }
+]
