@@ -40,5 +40,22 @@
     "mochawesome-merge": "^4.2.1",
     "multiple-cucumber-html-reporter": "^2.0.0",
     "node-xlsx": "^0.21.0"
-  }
+  },
+  "name": "test",
+  "version": "1.0.0",
+  "main": "cucumber-html-reports.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Francis-sanjon/Test.git"
+  },
+  "author": "Francis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Francis-sanjon/Test/issues"
+  },
+  "homepage": "https://github.com/Francis-sanjon/Test#readme",
+  "description": ""
 }
