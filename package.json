@@ -46,7 +46,7 @@
   "main": "cucumber-html-reports.js",
   "scripts": {
     "test": "cypress run",
-
+"open":"cypress open"
   },
   "repository": {
     "type": "git",
