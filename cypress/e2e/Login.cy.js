@@ -1,4 +1,4 @@
-const { Given, When } = require("@badeball/cypress-cucumber-preprocessor")
+const { Given, When, And } = require("@badeball/cypress-cucumber-preprocessor")
 
 
 describe('empty spec', () => {
@@ -8,6 +8,10 @@ describe('empty spec', () => {
   When('User enters the valid username and password',()=>{
     cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type('Admin')
     cy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input').type('admin123')
+  })
+  And('User clicks Login Button',()=>{
+    cy.get('.oxd-button').click()
+    
   })
 
         })
