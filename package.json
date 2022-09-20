@@ -46,7 +46,7 @@
   "main": "cucumber-html-reports.js",
   "scripts": {
   "test": "cypress run --config pageLoadTimeout=10000",
-   
+   "open":"cypress open"
 
 
   },
